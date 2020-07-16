@@ -4,6 +4,6 @@ docker run -it --rm \
     -v $HOME/Workspace:$HOME/Workspace \
     -v /Extend/Workspace:/Extend/Workspace \
     -e 'TZ=Asia/Tehran' \
-    -e 'PKG_CONFIG_PATH=$HOME/Workspace/C/config' \
-    -e 'PATH_ADD=$HOME/Workspace/C/qt/scripts' \
+    -e PKG_CONFIG_PATH=$HOME/Workspace/C/config \
+    -e PATH_ADD=$HOME/Workspace/C/qt/scripts \
     mingw "/Extend/Workspace/C/qt" "./build.sh" "$@"
