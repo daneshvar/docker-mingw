@@ -15,7 +15,7 @@
 ### LimeReport:
 ```~/Workspace/C/qt/library/LimeReport/1.4.135$mingw qbuild.sh -p limereport.pro```
 ### Daneshvar Kit:
-```~/Workspace/C/qt/daneshvar$mingw qbuild.sh -p src/daneshvar.pro```
+```~/Workspace/C/qt/daneshvar$mingw qbuild.sh -p src/daneshvar.pro -o build/2```
 ### Atlas Kit:
 ```~/Workspace/Projects/araax/atlas$mingw qbuild.sh -p src/atlas.pro```
 ### Sabta Project:
